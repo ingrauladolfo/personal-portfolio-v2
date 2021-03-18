@@ -10,6 +10,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeModule } from './home/home.module';
+import { CompanyModule } from './company/company.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeModule } from './home/home.module';
     AppRoutingModule,
     SharedModule,
     HomeModule,
+    CompanyModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
