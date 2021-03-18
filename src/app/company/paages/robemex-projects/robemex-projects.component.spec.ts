@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RobemexComponent } from './robemex.component';
+import { ROBEMEXProjectsComponent } from './robemex-projects.component';
 
-describe('RobemexComponent', () => {
-  let component: RobemexComponent;
-  let fixture: ComponentFixture<RobemexComponent>;
+describe('ROBEMEXProjectsComponent', () => {
+  let component: ROBEMEXProjectsComponent;
+  let fixture: ComponentFixture<ROBEMEXProjectsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RobemexComponent ]
+      declarations: [ ROBEMEXProjectsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RobemexComponent);
+    fixture = TestBed.createComponent(ROBEMEXProjectsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

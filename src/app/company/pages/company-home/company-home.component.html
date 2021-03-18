@@ -1,27 +1,22 @@
 <!-- <p>company-home works!</p> -->
-<div class="container mt-5 pt-5">
-    <div class="columns">
-        <div class="column">
-            <div class="background">
-              <div class="card" style="background-color: linear-gradient(90deg, #616d71,#393d42) !important;">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="../../../../assets/images/company/logos/robemex.png" alt="ROBEMEX's logo">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">ROBEMEX</p>
-                    </div>
-                  </div>
-              
-                  <div class="content">
-                    <a mat-button  [routerLink]="['/companies/robemex']">See all the projects</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
+<div class="background">
+  <div class="container mt-5 pt-5">
+    <div class="row mx-auto my-auto justify-content-center mt-5 pt-5">
+      <div class="col-sm-4 mb-2 mt-2">
+        <a [routerLink]="['/companies/projects/robemex']">
+          <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url('../../../../assets/images/company/logos/robemex.png');">
+            <p class="uk-h4 text-center text-white">ROBEMEX</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4 mb-2 mt-2">
+        <a [routerLink]="['/companies/projects/rnet']">
+          <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url('../../../../assets/images/company/logos/rnet.png');">
+            <p class="uk-h4 text-center text-white">rNet</p>
+          </div>
+        </a>
+      </div>
+
     </div>
+  </div>
 </div>
